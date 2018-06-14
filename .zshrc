@@ -57,10 +57,6 @@ plugins=(git git-extras ruby rails)
 # Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
 
-# Activate asdf
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
-
 # You may need to manually set your language environment
 export LC_ALL=fr_FR.UTF-8
 export LANG=fr_FR.UTF-8
@@ -77,3 +73,7 @@ fi
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/id_rsa"
+
+# Activate asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
